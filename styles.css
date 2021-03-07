@@ -1,0 +1,74 @@
+body {
+    background-color: whitesmoke;
+    font-family: garamond;
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+}
+h1 {
+    color: cadetblue;
+    font-size: 50px;
+    padding-bottom: 50px;
+    font-style: italic;
+}
+h2 {
+    color: darksalmon;
+    font-size: 45px;
+    font-style: italic;
+}
+h3 {
+    color: darkseagreen;
+    font-size: 40px;
+    font-style: italic;
+}
+p {
+    font-size: 25px;
+    margin: 20px 20px 50px 50px;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+#figureCaption {
+    color: darkcyan;
+    font-size: 20px;
+}
+#ps {
+    color: darkcyan;
+    font-size: 20px;
+    text-align: center;
+}
+#noPaddingParagraph {
+    padding-bottom: 0px;
+}
+#here {
+    font-style: italic;
+}
+nav ul {
+    text-align: center;
+    padding: 0px;
+}
+ul {
+    display: block;
+}
+ul li {
+    display: inline-block;
+    margin-right: 1em;
+    font-size: 20px;
+}
+ol {
+    font-size: 20px;
+    list-style-position: inside;
+    padding-bottom: 50px;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+.rowTwo {
+    display: flex;
+}
+.columnTwo {
+    flex: 25%;
+    padding: 20px;
+}
